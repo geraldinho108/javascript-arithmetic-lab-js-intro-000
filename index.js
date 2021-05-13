@@ -20,24 +20,12 @@ function divide(a, b) {
 }
 
 function increment(n) {
-  n++
-  return n;
+  return n += 1;
 }
-/*
+
 function decrement(n) {
-  n--
-  return n;
+  return n -= 1;
 }
-*/
-function decrement(n) {
-  return n -= 1;  
-}
-/*
-function makeInt(n) {
-  var answer = parseInt(n, 10)
-  return answer;
-}
-*/
 
 function makeInt(n) {
   return parseInt(n, 10);
@@ -46,9 +34,3 @@ function makeInt(n) {
 function preserveDecimal(n) {
   return parseFloat(n);
 }
-/*
-function preserveDecimal(n) {
-  var answer = parseFloat(n)
-  return answer;
-}
-*/
