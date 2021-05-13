@@ -28,10 +28,15 @@ function decrement(n) {
   n--
   return n;
 }
-
+/*
 function makeInt(n) {
   var answer = parseInt(n, 10)
   return answer;
+}
+*/
+
+function makeInt(n) {
+  return parseInt(n, 10);
 }
 
 function preserveDecimal(n) {
